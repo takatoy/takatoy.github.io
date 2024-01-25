@@ -39,9 +39,9 @@
       <h2
         class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
-        <span class="text-neutral-500">##</span> Work Experience
+        <span class="text-orange-300">##</span> Work Experience
       </h2>
-      <div class="flex flex-col mt-8">
+      <div class="flex flex-col mt-4">
         <WorkExperienceItem
           period="Sep. 2023 - Present"
           company="SB Intuitions Corp."
@@ -68,13 +68,11 @@
           company="LINE Corporation"
           companyNote="(Tokyo)"
           companyHref="https://linecorp.com/"
-          jobTitle="Senior Engineer (from Sep. 2023) ← Engineer"
+          jobTitle="Senior Engineer ← Engineer"
         >
           <li>Worked as a Director/Engineer of the Dialogue Systems Unit</li>
           <li>Worked on full-stack development of LLM applications</li>
-          <!-- <li>
-            Developed core technologies for Natural Language Processing (NLP)
-          </li> -->
+          <li>Senior Engineer since September 2023</li>
         </WorkExperienceItem>
         <Accordion>
           <div
@@ -133,8 +131,8 @@
             class="text-sm mx-2 px-2 py-1 text-neutral-400 hover:bg-neutral-700 rounded-md"
             @click="showInternships = !showInternships"
           >
-            {{ showInternships ? "Hide" : "Show" }} Internships and Part-time
-            Jobs
+            {{ showInternships ? "▲ Hide" : "▼ Show" }} Internships and
+            Part-time Jobs
           </button>
           <div class="flex-1 h-[1px] bg-neutral-600"></div>
         </div>
@@ -144,9 +142,9 @@
       <h2
         class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
-        <span class="text-neutral-500">##</span> Education
+        <span class="text-orange-300">##</span> Education
       </h2>
-      <div class="flex flex-col gap-6 mt-8">
+      <div class="flex flex-col gap-6 mt-4">
         <WorkExperienceItem
           period="Apr. 2019 - Apr. 2021"
           company="Master of Information Science and Technology"
@@ -185,32 +183,72 @@
       <h2
         class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
-        <span class="text-neutral-500">##</span> Publication
+        <span class="text-orange-300">##</span> Publication
       </h2>
-      <h3 class="mt-4 text-lg font-bold">
-        <span class="text-neutral-500">###</span> Journal
+      <h3 class="text-lg font-bold">
+        <span class="text-orange-300">###</span> Journal
       </h3>
-      <div></div>
+      <div class="flex flex-col gap-4 mt-4">
+        <PublicationItem
+          title="Building a hospitable and reliable dialogue system for android robots: a scenario-based approach with large language models"
+          authors="Takato Yamazaki, Katsumasa Yoshikawa, Toshiki Kawamoto, Tomoya Mizumoto, Masaya Ohagi, Toshinori Sato"
+          publishedAt="Advanced Robotics"
+          date="November 2023"
+          href="https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2244554"
+        />
+      </div>
+      <h3 class="mt-8 text-lg font-bold">
+        <span class="text-orange-300">###</span> International Conferences
+        (Referred)
+      </h3>
+      <div class="flex flex-col gap-4 mt-4">
+        <PublicationItem
+          title="An Open-Domain Avatar Chatbot by Exploiting a Large Language Model"
+          authors="Takato Yamazaki, Tomoya Mizumoto, Katsumasa Yoshikawa, Masaya Ohagi, Toshiki Kawamoto, Toshinori Sato"
+          publishedAt="Proceedings of the 24th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL)"
+          date="September 2023"
+          href="https://aclanthology.org/2023.sigdial-1.40/"
+        />
+        <PublicationItem
+          title="Phrase-Level Action Reinforcement Learning for Neural Dialog Response Generation"
+          authors="Takato Yamazaki, Akiko Aizawa"
+          publishedAt="Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021"
+          date="August 2021"
+          href="https://aclanthology.org/2021.findings-acl.446/"
+        />
+      </div>
+      <h3 class="mt-8 text-lg font-bold">
+        <span class="text-orange-300">###</span> Domestic Conferences
+      </h3>
+      <div class="flex flex-col gap-4 mt-4">
+        <PublicationItem
+          title="HyperCLOVA を用いた音声雑談対話システム"
+          authors="山崎天, 川本稔己, 大萩雅也, 水本智也, 小林滉河, 吉川克正, 佐藤敏紀"
+          publishedAt="人工知能学会研究会資料 言語・音声理解と対話処理研究会 第96回 (SIG-SLUD)"
+          date="December 2023"
+          href="https://www.jstage.jst.go.jp/article/jsaislud/96/0/96_22/_article/-char/ja/"
+        />
+      </div>
     </div>
     <div class="mt-16">
       <h2
         class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
-        <span class="text-neutral-500">##</span> Awards
+        <span class="text-orange-300">##</span> Awards
       </h2>
     </div>
     <div class="mt-16">
       <h2
         class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
-        <span class="text-neutral-500">##</span> Activities
+        <span class="text-orange-300">##</span> Activities
       </h2>
     </div>
     <div class="mt-16">
       <h2
         class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
-        <span class="text-neutral-500">##</span> Skills
+        <span class="text-orange-300">##</span> Skills
       </h2>
     </div>
   </div>
@@ -220,6 +258,7 @@
 import { ref } from "vue";
 import Accordion from "./components/Accordion.vue";
 import WorkExperienceItem from "./components/WorkExperienceItem.vue";
+import PublicationItem from "./components/PublicationItem.vue";
 
 const showInternships = ref(false);
 </script>
