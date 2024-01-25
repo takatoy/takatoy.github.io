@@ -83,6 +83,4 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import Divider from "./components/Divider.vue";
-</script>
+<script setup lang="ts"></script>
