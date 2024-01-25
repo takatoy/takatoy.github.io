@@ -20,7 +20,10 @@
         }}</span>
       </div>
       <div class="text-neutral-400 font-bold">{{ props.jobTitle }}</div>
-      <ul class="flex flex-col list-disc list-outside ml-5 mt-2">
+      <ul
+        class="flex flex-col list-disc list-outside ml-5 mt-2"
+        v-if="$slots.default"
+      >
         <slot />
       </ul>
     </div>
