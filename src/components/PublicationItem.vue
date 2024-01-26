@@ -2,16 +2,21 @@
   <a
     :href="props.href"
     target="_blank"
-    class="flex flex-col rounded-lg px-6 py-4 bg-neutral-700 hover:bg-neutral-600"
+    class="flex flex-col rounded-lg px-6 py-4 bg-stone-700 hover:bg-stone-600 leading-relaxed"
   >
     <div class="font-bold text-white">{{ props.title }}</div>
     <div
-      class="text-neutral-400 text-sm mt-3"
+      class="text-stone-400 text-sm mt-3"
       v-html="boldMyself(props.authors)"
     ></div>
     <div class="text-sm mt-3">
       <span class="font-bold">{{ props.publishedAt }}</span
-      >, {{ props.date }}.
+      >, {{ props.date }}.<span
+        class="font-bold text-orange-300 ml-2"
+        v-if="props.prize"
+      >
+        {{ props.prize }}</span
+      >
     </div>
   </a>
 </template>
@@ -23,12 +28,16 @@ const props = defineProps<{
   publishedAt: string;
   date: string;
   href: string;
+  prize?: string;
 }>();
 
 const boldMyself = (authors: string) => {
-  return authors.replace(
+  authors = authors.replace(
     "Takato Yamazaki",
     '<span class="underline">Takato Yamazaki</span>'
   );
+  authors = authors.replace("山崎天", '<span class="underline">山崎天</span>');
+
+  return authors;
 };
 </script>

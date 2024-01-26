@@ -9,13 +9,28 @@
         <h1 class="font-bold text-2xl text-white md:text-4xl">
           Takato Yamazaki
         </h1>
-        <div class="text-neutral-400 mt-1 md:text-lg md:mt-2">
+        <div class="text-stone-400 mt-1 md:text-lg md:mt-2">
           <a
-            class="hover:text-neutral-300 hover:underline"
+            class="hover:text-stone-300 hover:underline"
             href="mailto:takato@yamazaki.dev"
             target="_blank"
             >takato@yamazaki.dev</a
           >
+        </div>
+        <div class="mt-4 flex items-center gap-6">
+          <a href="https://github.com/takatoy" target="_blank" class="flex">
+            <img class="h-6" src="/img/github_logo.svg" />
+          </a>
+          <a href="https://x.com/y_takaten" target="_blank" class="flex">
+            <img class="h-6" src="/img/x_logo.svg" />
+          </a>
+          <a
+            href="https://jp.linkedin.com/in/takato-yamazaki-b96370140"
+            target="_blank"
+            class="flex"
+          >
+            <img class="h-6" src="/img/linked_in_logo.png" />
+          </a>
         </div>
         <div class="mt-4 md:text-lg">
           I'm an engineer and researcher working at
@@ -37,7 +52,7 @@
     </div>
     <div class="relative mt-14">
       <h2
-        class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Work Experience
       </h2>
@@ -57,7 +72,7 @@
           class="mt-6"
           period="Oct. 2023 - Present"
           company="LY Corporation"
-          companyNote="(Tokyo, formerly LINE Corporation)"
+          companyNote="(Tokyo, formerly LINE Corp.)"
           companyHref="https://www.lycorp.co.jp/"
           jobTitle="Senior Engineer"
         >
@@ -126,21 +141,21 @@
           </div>
         </Accordion>
         <div class="flex items-center mt-6">
-          <div class="flex-1 h-[1px] bg-neutral-600"></div>
+          <div class="flex-1 h-[1px] bg-stone-600"></div>
           <button
-            class="text-sm mx-2 px-2 py-1 text-neutral-400 hover:bg-neutral-700 rounded-md"
+            class="text-sm mx-2 px-2 py-1 text-stone-400 hover:bg-stone-700 rounded-md"
             @click="showInternships = !showInternships"
           >
             {{ showInternships ? "▲ Hide" : "▼ Show" }} Internships and
             Part-time Jobs
           </button>
-          <div class="flex-1 h-[1px] bg-neutral-600"></div>
+          <div class="flex-1 h-[1px] bg-stone-600"></div>
         </div>
       </div>
     </div>
     <div class="mt-16">
       <h2
-        class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 md:py-4 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Education
       </h2>
@@ -181,12 +196,12 @@
     </div>
     <div class="mt-16">
       <h2
-        class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
-        <span class="text-orange-300">##</span> Publication
+        <span class="text-orange-300">##</span> Publications
       </h2>
       <h3 class="text-lg font-bold">
-        <span class="text-orange-300">###</span> Journal
+        <span class="text-stone-500">###</span> Journal (First Author, Referred)
       </h3>
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
@@ -197,9 +212,9 @@
           href="https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2244554"
         />
       </div>
-      <h3 class="mt-8 text-lg font-bold">
-        <span class="text-orange-300">###</span> International Conferences
-        (Referred)
+      <h3 class="mt-12 text-lg font-bold">
+        <span class="text-stone-500">###</span> International Conferences (First
+        Author, Referred)
       </h3>
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
@@ -217,8 +232,8 @@
           href="https://aclanthology.org/2021.findings-acl.446/"
         />
       </div>
-      <h3 class="mt-8 text-lg font-bold">
-        <span class="text-orange-300">###</span> Domestic Conferences
+      <h3 class="mt-12 text-lg font-bold">
+        <span class="text-stone-500">###</span> Other Conferences (First Author)
       </h3>
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
@@ -228,28 +243,185 @@
           date="December 2023"
           href="https://www.jstage.jst.go.jp/article/jsaislud/96/0/96_22/_article/-char/ja/"
         />
+        <PublicationItem
+          title="Tourist Guidance Robot Based on HyperCLOVA"
+          authors="Takato Yamazaki, Katsumasa Yoshikawa, Toshiki Kawamoto, Masaya Ohagi, Tomoya Mizumoto, Shuta Ichimura, Yusuke Kida, Toshinori Sato"
+          publishedAt="Proceedings of the Dialogue Robot Competition 2022 (DRC2022)"
+          date="October 2022"
+          href="https://arxiv.org/abs/2210.10400"
+        />
+        <PublicationItem
+          title="大規模汎用言語モデルを用いた雑談対話システムの対人関係性に基づく発話制御の検討"
+          authors="山崎天, 川本稔己, 吉川克正, 佐藤敏紀"
+          publishedAt="言語処理学会第28回年次大会 発表論文集 (NLP2022)"
+          date="March 2022"
+          href="https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/G7-3.pdf"
+        />
+        <PublicationItem
+          title="ペルソナ一貫性の考慮と知識ベースを統合した HyperCLOVA を用いた雑談対話システム"
+          authors="山崎天, 坂田亘, 川本稔己, 小林滉河, 上村卓史, 中町礼文, 李聖哲, 佐藤敏紀"
+          publishedAt="人工知能学会研究会資料 言語・音声理解と対話処理研究会 第93回 (SIG-SLUD)"
+          date="November 2021"
+          href="https://www.jstage.jst.go.jp/article/jsaislud/93/0/93_113/_article/-char/ja/"
+        />
+        <PublicationItem
+          title="タスク指向対話におけるニューラル句抽出を用いた End-to-End 発話生成"
+          authors="山崎天, 坂田亘, 川本稔己, 小林滉河, 上村卓史, 中町礼文, 李聖哲, 佐藤敏紀"
+          publishedAt="人工知能学会研究会資料 言語・音声理解と対話処理研究会 第90回 (SIG-SLUD)"
+          date="November 2020"
+          href="https://www.jstage.jst.go.jp/article/jsaislud/90/0/90_18/_article/-char/ja/"
+          prize="若手優秀賞"
+        />
+        <PublicationItem
+          title="深層強化学習を用いた分散協調探索問題における記憶情報による情報補完とその効率化"
+          authors="山崎天, 菅原俊治"
+          publishedAt="電子情報通信学会技術研究報告; 信学技報 (WSSIT2019)"
+          date="March 2019"
+          href="https://ken.ieice.org/ken/paper/20190309f1MC/"
+        />
       </div>
     </div>
     <div class="mt-16">
       <h2
-        class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Awards
       </h2>
+      <div class="flex flex-col gap-3 mt-4">
+        <AwardItem
+          title="Dialog Robot Competition 2023 - Grand Prize"
+          from="the Dialog Robot Competition Executive Committee"
+          date="Dec. 2023"
+          href="https://sites.google.com/view/dialogrobotcompe3/results"
+        />
+        <AwardItem
+          title="Dialog System Live Competition 5 - Open Track Grand Prize"
+          from="the 13th Dialogue System Symposium (SIG-SLUD)"
+          date="Dec. 2022"
+          href="https://sites.google.com/view/dslc5/%E7%B5%90%E6%9E%9C"
+        />
+        <AwardItem
+          title="Dialog System Live Competition 5 - Situation Track Grand Prize"
+          from="the 13th Dialogue System Symposium (SIG-SLUD)"
+          date="Dec. 2022"
+          href="https://sites.google.com/view/dslc5/%E7%B5%90%E6%9E%9C"
+        />
+        <AwardItem
+          title="Dialog Robot Competition 2022 - Grand Prize"
+          from="the Dialog Robot Competition Executive Committee"
+          date="Oct. 2022"
+          href="https://sites.google.com/view/drc2022-jp/results"
+        />
+        <AwardItem
+          title="Dialog System Live Competition 4 - Open Track Grand Prize"
+          from="the 12th Dialogue System Symposium (SIG-SLUD)"
+          date="Nov. 2021"
+          href="https://dialog-system-live-competition.github.io/dslc4/result.html"
+        />
+        <AwardItem
+          title="Dialog System Live Competition 4 - Situation Track Grand Prize"
+          from="the 12th Dialogue System Symposium (SIG-SLUD)"
+          date="Nov. 2021"
+          href="https://dialog-system-live-competition.github.io/dslc4/result.html"
+        />
+        <AwardItem
+          title="Young Researcher Award for Excellent Research"
+          from="the 11th Dialogue System Symposium (SIG-SLUD)"
+          date="Nov. 2020"
+          href="https://jsai-slud.github.io/sig-slud/archive/award.html"
+        />
+      </div>
     </div>
     <div class="mt-16">
       <h2
-        class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 md:py-4 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
-        <span class="text-orange-300">##</span> Activities
+        <span class="text-orange-300">##</span> Other Activities
       </h2>
+      <div class="flex flex-col gap-4 mt-4">
+        <ActivityItem
+          type="Talk"
+          date="Oct. 2023"
+          at="NLPコロキウム"
+          title="対話システム開発における日本語大規模言語モデルとの格闘"
+        >
+          <div class="flex gap-6 items-center">
+            <a
+              href="https://nlp-colloquium-jp.github.io/schedule/2023-10-25_takato-yamazaki/"
+              class="flex w-fit"
+              target="_blank"
+              ><img
+                class="h-5 w-fit bg-white rounded-sm px-1 py-0.5"
+                src="/img/nlp_colloquium_logo.png"
+            /></a>
+            <a
+              href="https://youtu.be/uUvuYnqgY9M?si=sgI2udfzlqk4arNO"
+              class="flex w-fit"
+              target="_blank"
+              ><img class="h-4 w-fit" src="/img/yt_logo.png"
+            /></a>
+          </div>
+        </ActivityItem>
+        <ActivityItem
+          type="Talk"
+          date="Sep. 2022"
+          at="FastLabel × LayerX × LINE 3社が語る「生成AI×プロダクト開発」で直面する課題と乗り越え方"
+          title="どこまでLLMに任せる？LLMの自由度と制御性のバランスを取るための技術紹介"
+        >
+          <div class="flex gap-6 items-center">
+            <a
+              href="https://logmi.jp/tech/articles/329761"
+              class="flex w-fit"
+              target="_blank"
+              ><img class="h-4 w-fit" src="/img/logmi_logo.svg"
+            /></a>
+            <a
+              href="https://youtu.be/9B7_PPYFQE0?si=6ULNkt1Y0XtgZNPc"
+              class="flex w-fit"
+              target="_blank"
+              ><img class="h-4 w-fit" src="/img/yt_logo.png"
+            /></a>
+          </div>
+        </ActivityItem>
+        <ActivityItem
+          type="Talk"
+          date="Nov. 2022"
+          at="Tech-Verse 2022"
+          title="日本語の基盤モデルを搭載したHyperCLOVAの大規模化と応用可能性"
+        >
+          <div class="flex gap-6 items-center">
+            <a
+              href="https://tech-verse.me/ja/sessions/52"
+              class="flex w-fit"
+              target="_blank"
+              ><img class="h-5 w-fit" src="/img/tech-verse_logo.svg"
+            /></a>
+            <a
+              href="https://engineering.linecorp.com/ja/interview/tech-verse-2022-scaling-and-potential-uses-for-the-hyperclova-japanese-base-model"
+              class="flex w-fit"
+              target="_blank"
+              ><img class="h-3 w-fit" src="/img/line_dev_logo.svg"
+            /></a>
+            <a
+              href="https://youtu.be/I4o7X3-aqJk?si=xbX4rbLhUwN5LpiG"
+              class="flex w-fit"
+              target="_blank"
+              ><img class="h-4 w-fit" src="/img/yt_logo.png"
+            /></a>
+          </div>
+        </ActivityItem>
+      </div>
     </div>
-    <div class="mt-16">
+    <!-- <div class="mt-16">
       <h2
-        class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 md:py-4 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
-        <span class="text-orange-300">##</span> Skills
+        <span class="text-orange-300">##</span> Skills & Lanaguges
       </h2>
+      <div class="flex flex-col gap-4 mt-4"></div>
+    </div> -->
+    <div class="mt-16 w-full text-center text-neutral-400 text-sm">
+      Updated on 2024/1/26
     </div>
   </div>
 </template>
@@ -259,6 +431,8 @@ import { ref } from "vue";
 import Accordion from "./components/Accordion.vue";
 import WorkExperienceItem from "./components/WorkExperienceItem.vue";
 import PublicationItem from "./components/PublicationItem.vue";
+import AwardItem from "./components/AwardItem.vue";
+import ActivityItem from "./components/ActivityItem.vue";
 
 const showInternships = ref(false);
 </script>
