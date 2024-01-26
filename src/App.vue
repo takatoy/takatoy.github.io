@@ -33,7 +33,7 @@
           </a>
         </div>
         <div class="mt-4 md:text-lg">
-          I'm an engineer and researcher working at
+          I'm a developer and researcher working at
           <a
             class="text-orange-300 hover:text-orange-200 hover:underline text-nowrap"
             href="https://www.lycorp.co.jp/"
@@ -62,7 +62,7 @@
           company="SB Intuitions Corp."
           companyNote="(Tokyo)"
           companyHref="https://www.sbintuitions.co.jp/"
-          jobTitle="Engineer"
+          jobTitle="Software Engineer"
         >
           <li>Creating instruction data for Large Language Models (LLM)</li>
           <li>Working on developing and researching dialog systems</li>
@@ -74,7 +74,7 @@
           company="LY Corporation"
           companyNote="(Tokyo, formerly LINE Corp.)"
           companyHref="https://www.lycorp.co.jp/"
-          jobTitle="Senior Engineer"
+          jobTitle="Senior Software Engineer"
         >
         </WorkExperienceItem>
         <WorkExperienceItem
@@ -83,11 +83,11 @@
           company="LINE Corporation"
           companyNote="(Tokyo)"
           companyHref="https://linecorp.com/"
-          jobTitle="Senior Engineer ← Engineer"
+          jobTitle="Senior Software Engineer ← Software Engineer"
         >
-          <li>Worked as a Director/Engineer of the Dialogue Systems Unit</li>
+          <li>Worked as a Director/Developer of the Dialogue Systems Unit</li>
           <li>Worked on full-stack development of LLM applications</li>
-          <li>Senior Engineer since September 2023</li>
+          <li>Senior Software Engineer since September 2023</li>
         </WorkExperienceItem>
         <Accordion>
           <div
@@ -347,7 +347,7 @@
           at="NLPコロキウム"
           title="対話システム開発における日本語大規模言語モデルとの格闘"
         >
-          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center pb-1">
             <a
               href="https://nlp-colloquium-jp.github.io/schedule/2023-10-25_takato-yamazaki/"
               class="flex w-fit"
@@ -370,7 +370,7 @@
           at="FastLabel × LayerX × LINE 3社が語る「生成AI×プロダクト開発」で直面する課題と乗り越え方"
           title="どこまでLLMに任せる？LLMの自由度と制御性のバランスを取るための技術紹介"
         >
-          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center pb-1">
             <a
               href="https://logmi.jp/tech/articles/329761"
               class="flex w-fit"
@@ -391,7 +391,7 @@
           at="Tech-Verse 2022"
           title="日本語の基盤モデルを搭載したHyperCLOVAの大規模化と応用可能性"
         >
-          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center pb-1">
             <a
               href="https://tech-verse.me/ja/sessions/52"
               class="flex w-fit"
@@ -414,14 +414,32 @@
         </ActivityItem>
       </div>
     </div>
-    <!-- <div class="mt-16">
+    <div class="mt-16">
       <h2
         class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Skills & Lanaguges
       </h2>
-      <div class="flex flex-col gap-4 mt-4"></div>
-    </div> -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+        <SkillItem title="Japanese">Native</SkillItem>
+        <SkillItem title="English">Fluent, TOEIC: 990</SkillItem>
+        <SkillItem title="Python"
+          >Server-side development, Machine Learning (e.g. PyTorch)</SkillItem
+        >
+        <SkillItem title="JavaScript / TypeScript"
+          >Web development (e.g. Vue, React), Module development, 3D</SkillItem
+        >
+        <SkillItem title="HTML/CSS">Front-end development, Design</SkillItem>
+        <SkillItem title="Java">Web development, Module development</SkillItem>
+        <SkillItem title="PHP">Web development</SkillItem>
+        <SkillItem title="C/C++"
+          >Module development, Competitive Programming</SkillItem
+        >
+        <SkillItem title="Prompt Engineering"
+          >I have many experiences with LLMs!</SkillItem
+        >
+      </div>
+    </div>
     <div class="mt-16 w-full text-center text-neutral-400 text-sm">
       Updated on 2024/1/26
     </div>
@@ -435,6 +453,7 @@ import WorkExperienceItem from "./components/WorkExperienceItem.vue";
 import PublicationItem from "./components/PublicationItem.vue";
 import AwardItem from "./components/AwardItem.vue";
 import ActivityItem from "./components/ActivityItem.vue";
+import SkillItem from "./components/SkillItem.vue";
 
 const showInternships = ref(false);
 </script>
