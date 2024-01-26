@@ -2,11 +2,11 @@
   <a
     :href="props.href"
     target="_blank"
-    class="flex flex-col rounded-lg px-6 py-4 bg-stone-700 hover:bg-stone-600 leading-relaxed"
+    class="flex flex-col rounded-lg px-6 py-4 bg-neutral-700 hover:bg-neutral-600 leading-relaxed"
   >
     <div class="font-bold text-white">{{ props.title }}</div>
     <div
-      class="text-stone-400 text-sm mt-3"
+      class="text-neutral-400 text-sm mt-3"
       v-html="boldMyself(props.authors)"
     ></div>
     <div class="text-sm mt-3">

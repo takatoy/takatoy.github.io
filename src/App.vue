@@ -9,9 +9,9 @@
         <h1 class="font-bold text-2xl text-white md:text-4xl">
           Takato Yamazaki
         </h1>
-        <div class="text-stone-400 mt-1 md:text-lg md:mt-2">
+        <div class="text-neutral-400 mt-1 md:text-lg md:mt-2">
           <a
-            class="hover:text-stone-300 hover:underline"
+            class="hover:text-neutral-300 hover:underline"
             href="mailto:takato@yamazaki.dev"
             target="_blank"
             >takato@yamazaki.dev</a
@@ -52,7 +52,7 @@
     </div>
     <div class="relative mt-14">
       <h2
-        class="py-3 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Work Experience
       </h2>
@@ -141,21 +141,21 @@
           </div>
         </Accordion>
         <div class="flex items-center mt-6">
-          <div class="flex-1 h-[1px] bg-stone-600"></div>
+          <div class="flex-1 h-[1px] bg-neutral-600"></div>
           <button
-            class="text-sm mx-2 px-2 py-1 text-stone-400 hover:bg-stone-700 rounded-md"
+            class="text-sm mx-2 px-2 py-1 text-neutral-400 hover:bg-neutral-700 rounded-md"
             @click="showInternships = !showInternships"
           >
             {{ showInternships ? "▲ Hide" : "▼ Show" }} Internships and
             Part-time Jobs
           </button>
-          <div class="flex-1 h-[1px] bg-stone-600"></div>
+          <div class="flex-1 h-[1px] bg-neutral-600"></div>
         </div>
       </div>
     </div>
     <div class="mt-16">
       <h2
-        class="py-3 md:py-4 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Education
       </h2>
@@ -196,12 +196,13 @@
     </div>
     <div class="mt-16">
       <h2
-        class="py-3 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Publications
       </h2>
       <h3 class="text-lg font-bold">
-        <span class="text-stone-500">###</span> Journal (First Author, Referred)
+        <span class="text-neutral-500">###</span> Journal (First Author,
+        Referred)
       </h3>
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
@@ -213,8 +214,8 @@
         />
       </div>
       <h3 class="mt-12 text-lg font-bold">
-        <span class="text-stone-500">###</span> International Conferences (First
-        Author, Referred)
+        <span class="text-neutral-500">###</span> International Conferences
+        (First Author, Referred)
       </h3>
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
@@ -233,7 +234,8 @@
         />
       </div>
       <h3 class="mt-12 text-lg font-bold">
-        <span class="text-stone-500">###</span> Other Conferences (First Author)
+        <span class="text-neutral-500">###</span> Other Conferences (First
+        Author)
       </h3>
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
@@ -283,7 +285,7 @@
     </div>
     <div class="mt-16">
       <h2
-        class="py-3 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Awards
       </h2>
@@ -334,7 +336,7 @@
     </div>
     <div class="mt-16">
       <h2
-        class="py-3 md:py-4 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Other Activities
       </h2>
@@ -345,7 +347,7 @@
           at="NLPコロキウム"
           title="対話システム開発における日本語大規模言語モデルとの格闘"
         >
-          <div class="flex gap-6 items-center">
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
             <a
               href="https://nlp-colloquium-jp.github.io/schedule/2023-10-25_takato-yamazaki/"
               class="flex w-fit"
@@ -368,7 +370,7 @@
           at="FastLabel × LayerX × LINE 3社が語る「生成AI×プロダクト開発」で直面する課題と乗り越え方"
           title="どこまでLLMに任せる？LLMの自由度と制御性のバランスを取るための技術紹介"
         >
-          <div class="flex gap-6 items-center">
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
             <a
               href="https://logmi.jp/tech/articles/329761"
               class="flex w-fit"
@@ -389,7 +391,7 @@
           at="Tech-Verse 2022"
           title="日本語の基盤モデルを搭載したHyperCLOVAの大規模化と応用可能性"
         >
-          <div class="flex gap-6 items-center">
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
             <a
               href="https://tech-verse.me/ja/sessions/52"
               class="flex w-fit"
@@ -414,7 +416,7 @@
     </div>
     <!-- <div class="mt-16">
       <h2
-        class="py-3 md:py-4 bg-stone-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
+        class="py-3 md:py-4 bg-neutral-800/60 backdrop-blur-sm top-0 sticky font-bold text-xl text-white md:text-2xl"
       >
         <span class="text-orange-300">##</span> Skills & Lanaguges
       </h2>
