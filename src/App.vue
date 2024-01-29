@@ -450,8 +450,8 @@
         <SkillItem title="C/C++"
           >Module development, Competitive Programming</SkillItem
         >
-        <SkillItem title="Prompt Engineering"
-          >I have many experiences with LLMs!</SkillItem
+        <SkillItem title="LLM Application"
+          >I have many experiences with LLMs and Prompt Engineering!</SkillItem
         >
       </div>
     </div>

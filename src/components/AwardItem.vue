@@ -6,7 +6,13 @@
   >
     <div class="text-neutral-400 w-20 shrink-0">{{ props.date }}</div>
     <div class="shrink flex flex-col gap-1">
-      <div class="font-bold text-white">{{ props.title }}</div>
+      <div class="font-bold text-white">
+        {{ props.title }}
+        <img
+          class="inline-flex text-white h-4 stroke-neutral-400"
+          src="/img/external_link.svg"
+        />
+      </div>
       <div class="text-neutral-400 text-sm">
         from <span class="font-bold">{{ props.from }}</span>
       </div>

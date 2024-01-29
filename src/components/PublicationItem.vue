@@ -4,7 +4,10 @@
     target="_blank"
     class="flex flex-col rounded-lg px-6 py-4 bg-neutral-700 hover:bg-neutral-600 leading-relaxed"
   >
-    <div class="font-bold text-white">{{ props.title }}</div>
+    <div class="font-bold text-white">
+      {{ props.title }}
+      <img class="inline text-white h-4" src="/img/external_link.svg" />
+    </div>
     <div
       class="text-neutral-400 text-sm mt-3"
       v-html="boldMyself(props.authors)"
