@@ -347,10 +347,10 @@
           at="NLPコロキウム"
           title="対話システム開発における日本語大規模言語モデルとの格闘"
         >
-          <div class="flex flex-wrap gap-3 md:gap-6 items-center pb-1">
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
             <a
               href="https://nlp-colloquium-jp.github.io/schedule/2023-10-25_takato-yamazaki/"
-              class="flex w-fit"
+              class="flex w-fit pb-1"
               target="_blank"
               ><img
                 class="h-5 w-fit bg-white rounded-sm px-1 py-0.5"
@@ -358,7 +358,7 @@
             /></a>
             <a
               href="https://youtu.be/uUvuYnqgY9M?si=sgI2udfzlqk4arNO"
-              class="flex w-fit"
+              class="flex w-fit pb-1"
               target="_blank"
               ><img class="h-4 w-fit" src="/img/yt_logo.png"
             /></a>
@@ -366,22 +366,37 @@
         </ActivityItem>
         <ActivityItem
           type="Talk"
-          date="Sep. 2022"
+          date="Sep. 2023"
           at="FastLabel × LayerX × LINE 3社が語る「生成AI×プロダクト開発」で直面する課題と乗り越え方"
           title="どこまでLLMに任せる？LLMの自由度と制御性のバランスを取るための技術紹介"
         >
-          <div class="flex flex-wrap gap-3 md:gap-6 items-center pb-1">
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
             <a
               href="https://logmi.jp/tech/articles/329761"
-              class="flex w-fit"
+              class="flex w-fit pb-1"
               target="_blank"
               ><img class="h-4 w-fit" src="/img/logmi_logo.svg"
             /></a>
             <a
               href="https://youtu.be/9B7_PPYFQE0?si=6ULNkt1Y0XtgZNPc"
-              class="flex w-fit"
+              class="flex w-fit pb-1"
               target="_blank"
               ><img class="h-4 w-fit" src="/img/yt_logo.png"
+            /></a>
+          </div>
+        </ActivityItem>
+        <ActivityItem
+          type="Talk"
+          date="Jul. 2023"
+          at="LINEヤフー 新卒採用ページ"
+          title="新卒採用ページ 社員インタビュー"
+        >
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
+            <a
+              href="https://www.lycorp.co.jp/ja/recruit/interview/678/"
+              class="flex w-fit pb-1"
+              target="_blank"
+              ><img class="h-3 w-fit" src="/img/ly_logo.svg"
             /></a>
           </div>
         </ActivityItem>
@@ -391,22 +406,22 @@
           at="Tech-Verse 2022"
           title="日本語の基盤モデルを搭載したHyperCLOVAの大規模化と応用可能性"
         >
-          <div class="flex flex-wrap gap-3 md:gap-6 items-center pb-1">
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
             <a
               href="https://tech-verse.me/ja/sessions/52"
-              class="flex w-fit"
+              class="flex w-fit pb-1"
               target="_blank"
               ><img class="h-5 w-fit" src="/img/tech-verse_logo.svg"
             /></a>
             <a
               href="https://engineering.linecorp.com/ja/interview/tech-verse-2022-scaling-and-potential-uses-for-the-hyperclova-japanese-base-model"
-              class="flex w-fit"
+              class="flex w-fit pb-1"
               target="_blank"
               ><img class="h-3 w-fit" src="/img/line_dev_logo.svg"
             /></a>
             <a
               href="https://youtu.be/I4o7X3-aqJk?si=xbX4rbLhUwN5LpiG"
-              class="flex w-fit"
+              class="flex w-fit pb-1"
               target="_blank"
               ><img class="h-4 w-fit" src="/img/yt_logo.png"
             /></a>
