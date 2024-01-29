@@ -386,7 +386,7 @@
           </div>
         </ActivityItem>
         <ActivityItem
-          type="Talk"
+          type="Interview"
           date="Jul. 2023"
           at="LINEヤフー 新卒採用ページ"
           title="新卒採用ページ 社員インタビュー"
@@ -397,6 +397,21 @@
               class="flex w-fit pb-1"
               target="_blank"
               ><img class="h-3 w-fit" src="/img/ly_logo.svg"
+            /></a>
+          </div>
+        </ActivityItem>
+        <ActivityItem
+          type="Interview"
+          date="Dec. 2022"
+          at="LINE CLOVA BLOG"
+          title="【開発者インタビュー】対話ロボットコンペティション2022で、見事1位を獲得しました！"
+        >
+          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
+            <a
+              href="https://blog.clova.line.me/hyperclova-202212"
+              class="flex w-fit pb-1"
+              target="_blank"
+              ><img class="h-3 w-fit" src="/img/clova_logo.png"
             /></a>
           </div>
         </ActivityItem>
