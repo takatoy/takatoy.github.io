@@ -36,7 +36,7 @@ jobs:
       - name: Build
         run: |
           docker build -t takatoy .
-          docker run -v ./dist:/app/dist -it takatoy
+          docker run -v ./dist:/app/dist takatoy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
