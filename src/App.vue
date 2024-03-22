@@ -291,6 +291,12 @@
       </h2>
       <div class="flex flex-col gap-3 mt-4">
         <AwardItem
+          title="NLP2024 - Special Committee Award"
+          from="The Association for Natural Language Processing"
+          date="Mar. 2024"
+          href="https://www.anlp.jp/nlp2024/award.html"
+        />
+        <AwardItem
           title="Dialog Robot Competition 2023 - Grand Prize"
           from="the Dialog Robot Competition Executive Committee"
           date="Dec. 2023"
@@ -401,21 +407,6 @@
           </div>
         </ActivityItem>
         <ActivityItem
-          type="Interview"
-          date="Dec. 2022"
-          at="LINE CLOVA BLOG"
-          title="【開発者インタビュー】対話ロボットコンペティション2022で、見事1位を獲得しました！"
-        >
-          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
-            <a
-              href="https://blog.clova.line.me/hyperclova-202212"
-              class="flex w-fit pb-1"
-              target="_blank"
-              ><img class="h-3 w-fit" src="/img/clova_logo.png"
-            /></a>
-          </div>
-        </ActivityItem>
-        <ActivityItem
           type="Talk"
           date="Nov. 2022"
           at="Tech-Verse 2022"
@@ -471,7 +462,7 @@
       </div>
     </div>
     <div class="mt-16 w-full text-center text-neutral-400 text-sm">
-      Updated on 2024/1/26
+      Updated on 2024/3/22
     </div>
   </div>
 </template>
