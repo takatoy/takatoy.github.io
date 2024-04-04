@@ -348,6 +348,19 @@
       </h2>
       <div class="flex flex-col gap-4 mt-4">
         <ActivityItem
+          type="Organizer"
+          date="Mar. 2024"
+          at=""
+          title="INLG 2024 Local Organizer"
+          ><div class="flex flex-wrap gap-3 md:gap-6 items-center">
+            <a
+              class="bg-white p-0.5 rounded-md"
+              href="https://inlg2024.github.io/organizers.html"
+              target="_blank"
+              ><img class="h-6" src="/img/inlg_logo.png"
+            /></a></div
+        ></ActivityItem>
+        <ActivityItem
           type="Talk"
           date="Oct. 2023"
           at="NLPコロキウム"
@@ -462,7 +475,7 @@
       </div>
     </div>
     <div class="mt-16 w-full text-center text-neutral-400 text-sm">
-      Updated on 2024/3/22
+      Updated on 2024/04/05
     </div>
   </div>
 </template>
