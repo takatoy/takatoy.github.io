@@ -1,9 +1,9 @@
 <template>
   <div
-    class="flex flex-col md:flex-row gap-4 rounded-lg px-6 py-3 bg-neutral-700"
+    class="flex flex-col gap-2 md:flex-row md:gap-4 rounded-lg px-6 py-3 bg-neutral-700"
   >
     <div
-      class="flex flex-row mb-2 md:flex-col md:w-20 md:mb-0 shrink-0 text-neutral-400"
+      class="flex flex-row md:flex-col md:w-20 md:mb-0 shrink-0 text-neutral-400"
     >
       <div>{{ props.date }}</div>
       <div class="font-bold ml-2 md:ml-0">{{ props.type }}</div>

@@ -2,10 +2,10 @@
   <a
     :href="props.href"
     target="_blank"
-    class="flex gap-4 rounded-lg px-6 py-3 bg-neutral-700 hover:bg-neutral-600"
+    class="flex flex-col gap-2 md:flex-row md:gap-4 rounded-lg px-6 py-3 bg-neutral-700 hover:bg-neutral-600"
   >
     <div class="text-neutral-400 w-20 shrink-0">{{ props.date }}</div>
-    <div class="shrink flex flex-col gap-1">
+    <div class="shrink flex flex-col gap-2">
       <div class="font-bold text-white">
         {{ props.title }}
         <img
