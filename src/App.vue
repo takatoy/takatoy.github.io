@@ -70,7 +70,7 @@
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
-          period="Oct. 2023 - Present"
+          period="Oct. 2023 - Jun. 2024"
           company="LY Corporation"
           companyNote="(Tokyo, formerly LINE Corp.)"
           companyHref="https://www.lycorp.co.jp/"
@@ -177,7 +177,7 @@
           <li>Research Topic: Dialogue Systems, Reinforcement Learning</li>
         </WorkExperienceItem>
         <WorkExperienceItem
-          period="Apr. 2019 - Apr. 2021"
+          period="Apr. 2015 - Apr. 2019"
           company="B.E. in Computer Science and Engineering"
           companyHref="https://www.fse.sci.waseda.ac.jp/"
           jobTitle="Waseda University"
@@ -348,6 +348,19 @@
       </h2>
       <div class="flex flex-col gap-4 mt-4">
         <ActivityItem
+          type="Article"
+          date="Mar. 2024"
+          at="IEICE会誌 Vol.107 No.7"
+          title="大規模言語モデルの現状と今後の展望 ―企業の大規模言語モデル開発と応用開発の現場―"
+          ><div class="flex flex-wrap gap-3 md:gap-6 items-center">
+            <a
+              class="bg-white px-1 py-0.5 rounded-md"
+              href="https://app.journal.ieice.org/trial/107_7/k107_7_653/index.html"
+              target="_blank"
+              ><img class="h-5" src="/img/eic_logo.png"
+            /></a></div
+        ></ActivityItem>
+        <ActivityItem
           type="Organizer"
           date="Mar. 2024"
           at=""
@@ -470,12 +483,12 @@
           >Module development, Competitive Programming</SkillItem
         >
         <SkillItem title="LLM Application"
-          >I have many experiences with LLMs and Prompt Engineering!</SkillItem
+          >Prompt engineering, Application development</SkillItem
         >
       </div>
     </div>
     <div class="mt-16 w-full text-center text-neutral-400 text-sm">
-      Updated on 2024/04/05
+      Updated on 2024/08/07
     </div>
   </div>
 </template>
