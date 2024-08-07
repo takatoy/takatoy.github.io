@@ -418,21 +418,6 @@
           </div>
         </ActivityItem>
         <ActivityItem
-          type="Interview"
-          date="Jul. 2023"
-          at="LINEヤフー 新卒採用ページ"
-          title="新卒採用ページ 社員インタビュー"
-        >
-          <div class="flex flex-wrap gap-3 md:gap-6 items-center">
-            <a
-              href="https://www.lycorp.co.jp/ja/recruit/interview/678/"
-              class="flex w-fit pb-1"
-              target="_blank"
-              ><img class="h-3 w-fit" src="/img/ly_logo.svg"
-            /></a>
-          </div>
-        </ActivityItem>
-        <ActivityItem
           type="Talk"
           date="Nov. 2022"
           at="Tech-Verse 2022"
