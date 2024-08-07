@@ -161,7 +161,7 @@
       </h2>
       <div class="flex flex-col gap-6 mt-4">
         <WorkExperienceItem
-          period="Apr. 2019 - Apr. 2021"
+          period="Apr. 2019 - Mar. 2021"
           company="Master of Information Science and Technology"
           companyHref="https://www.i.u-tokyo.ac.jp/"
           jobTitle="The University of Tokyo"
@@ -177,7 +177,7 @@
           <li>Research Topic: Dialogue Systems, Reinforcement Learning</li>
         </WorkExperienceItem>
         <WorkExperienceItem
-          period="Apr. 2015 - Apr. 2019"
+          period="Apr. 2015 - Mar. 2019"
           company="B.E. in Computer Science and Engineering"
           companyHref="https://www.fse.sci.waseda.ac.jp/"
           jobTitle="Waseda University"
