@@ -268,7 +268,7 @@
         />
         <PublicationItem
           title="タスク指向対話におけるニューラル句抽出を用いた End-to-End 発話生成"
-          authors="山崎天, 坂田亘, 川本稔己, 小林滉河, 上村卓史, 中町礼文, 李聖哲, 佐藤敏紀"
+          authors="山崎天, 相澤彰子"
           publishedAt="人工知能学会研究会資料 言語・音声理解と対話処理研究会 第90回 (SIG-SLUD)"
           date="November 2020"
           href="https://www.jstage.jst.go.jp/article/jsaislud/90/0/90_18/_article/-char/ja/"
